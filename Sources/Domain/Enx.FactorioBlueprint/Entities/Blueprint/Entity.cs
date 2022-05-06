@@ -36,7 +36,12 @@ public record FactorioEntity
     public LogisticFilter? RequestFilters { get; init; }
     [JsonPropertyName("request_from_buffers")]
     public bool RequestFromBuffers { get; init; }
+    public SpeakerParameter? Parameters { get; init; }
+    [JsonPropertyName("alert_parameters")]
+    public SpeakerAlertParameter? AlertParameters { get; init; }
     [JsonPropertyName("auto_launch")]
     public bool? AutoLaunch { get; init; }
+    public byte Variation { get; init; }
+    public FactorioColor? Color { get; init; }
     public string? Station { get; init; }
 }
