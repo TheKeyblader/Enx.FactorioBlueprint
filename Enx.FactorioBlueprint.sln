@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{86730169-97C3-4945-BF8D-494B086904ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{444347B8-F15E-4E4C-A117-90681587F7B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E7AFC825-7CD5-4D7A-921B-C16F7A1C290B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enx.FactorioBlueprint", "Sources\Domain\Enx.FactorioBlueprint\Enx.FactorioBlueprint.csproj", "{B0DECD42-EFD0-4F92-B1D5-A426B4073AEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0DECD42-EFD0-4F92-B1D5-A426B4073AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DECD42-EFD0-4F92-B1D5-A426B4073AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DECD42-EFD0-4F92-B1D5-A426B4073AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DECD42-EFD0-4F92-B1D5-A426B4073AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7AFC825-7CD5-4D7A-921B-C16F7A1C290B} = {444347B8-F15E-4E4C-A117-90681587F7B5}
+		{B0DECD42-EFD0-4F92-B1D5-A426B4073AEE} = {E7AFC825-7CD5-4D7A-921B-C16F7A1C290B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DED618DD-B01E-4634-9806-7DEB097BF6B9}
+	EndGlobalSection
+EndGlobal
